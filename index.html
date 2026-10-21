@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sayles.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        
+        <header class="header">
+            <h1>John Doe</h1>
+            <p>Front-End Developer</p>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <div class="about-content">
+               
+                <img src="img/mohamed.jpg" alt="John Doe" class="profile-img">
+                <div class="about-text">
+                    <p>Hello! I'm John Doe, a passionate <strong>Front-End Developer</strong> who loves building modern websites.</p>
+                    <p>I enjoy creating simple and user-friendly interfaces using modern web technologies.</p>
+                    <a href="#" class="btn">Visit My GitHub</a>
+                </div>
+            </div>
+        </section>
+
+      
+        <section id="skills" class="card">
+            <h2>My Skills</h2>
+            <p class="section-desc">These are some of the technologies I use in my projects:</p>
+            <div class="skills-grid">
+                <div class="skill-box">
+                    <h3>HTML5</h3>
+                    <p>Building the structure of web pages.</p>
+                </div>
+                <div class="skill-box">
+                    <h3>CSS3</h3>
+                    <p>Creating beautiful and responsive designs.</p>
+                </div>
+                <div class="skill-box">
+                    <h3>JavaScript</h3>
+                    <p>Adding interaction and functionality.</p>
+                </div>
+                <div class="skill-box">
+                    <h3>React</h3>
+                    <p>Building modern user interfaces.</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="experience" class="card">
+            <h2>Experience</h2>
+            
+            <div class="exp-item">
+                <div class="exp-title">Senior Front-End Developer</div>
+                <div class="exp-company">TechCorp Solutions</div>
+                <div class="exp-date">2023 - Present</div>
+                <div class="exp-desc">Developed modern web applications and worked with a team of developers to create scalable web solutions.</div>
+            </div>
+
+            <div class="exp-item" style="margin-top: 25px;">
+                <div class="exp-title">Front-End Developer</div>
+                <div class="exp-company">Digital Agency Pro</div>
+                <div class="exp-date">2021 - 2023</div>
+                <div class="exp-desc">Built websites from designs and focused on creating clean and user-friendly interfaces.</div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-card">
+            <h2>Contact Me</h2>
+            <p>Feel free to contact me through any of the following links.</p>
+            <div class="contact-links">
+                <a href="mailto:john@example.com" class="contact-btn">john@example.com</a>
+                <a href="#" class="contact-btn">LinkedIn</a>
+                <a href="#" class="contact-btn">GitHub</a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        &copy; 2026 John Doe. All rights reserved.
+    </footer>
 </body>
+
+
+
 </html>
